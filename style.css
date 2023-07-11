@@ -246,3 +246,38 @@ color: #E55473;
 margin: 20px 0px;
 }
 /* subscribe section :End */
+/* footer section :start */
+footer{
+    height: 500px;
+    text-align: center;
+    background: #000000;
+    color: #FFF;
+}
+.footer{
+    height: 260px;
+    padding-top: 130px;
+}
+.peragraph{
+    margin: 10px;
+  }
+  .footer-peragraph{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  .footer-logo{
+    color: #E55473;
+     font-size: 48px;
+     font-weight: 700;
+  }
+  .f-logo{
+    color: #FFF;
+  }
+  .copyright{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+  }
+/* footer section :End */
