@@ -191,3 +191,58 @@
     height: 300px;
 }
 /* instragram section :End */
+/* subscribe section :start */
+.subscribe-section{
+    background-image: url('Flower Asset/Rectangle 9.png');
+    margin: 140px 410px;
+    border-radius: 8px;
+    padding: 80px 125px;
+}
+.form,
+input[type=email] {
+/* display: block; */
+background-color: #ffffff;
+border: none;
+width: 600px;
+height: 34px;
+border-radius: 8px;
+}
+.email-placeholder{
+color: rgba(39, 39, 39, 0.60);
+text-align: left;
+font-size: 16px;
+font-weight: 400;
+padding: 15px;
+margin: 10px;
+}
+.subscribe-title{
+color: #272727;
+text-align: center;
+font-size: 30px;
+font-weight: 900;
+}
+.form-container{
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 5px;
+}
+.email-btn{
+padding: 18px 31px;
+background-color: #E55473;
+color: #FFF;
+font-size: 20px;
+font-weight: 700;
+border: none;
+border-radius: 8px;
+cursor: pointer;
+/* margin: 44px; */
+}
+.email-btn:hover{
+background-color: #ffffff;
+color: #E55473;
+}
+.pdiv{
+margin: 20px 0px;
+}
+/* subscribe section :End */
