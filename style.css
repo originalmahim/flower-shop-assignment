@@ -2,3 +2,46 @@
     padding: 0px;
     font-family: 'Lato', sans-serif;
     max-width: 1920px;}
+    /* header-section :start */
+.header{
+    background-color: rgba(229, 84, 115, 0.10);
+}
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 230px;
+}
+.header-title{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 900;
+}
+.hp{
+    margin: 25px 0px;
+}
+.header-paragraph{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;}
+    
+.header-btn{
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    }
+    .header-btn:hover{
+        background-color: #ffffff;
+        color: #E55473;
+        }
+    .header-img{
+        padding-top: 60px;
+        margin-right: 240px;
+    }
+    /* header section :end */
