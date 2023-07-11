@@ -148,3 +148,47 @@
     font-weight: 600;
 }
 /* support section :end */
+/* signup section :start */
+.Pink{
+    color: #E55473;
+ }
+.signup-title{
+    color: #272727;
+    font-size: 30px;
+    font-weight: 900;
+}
+.signup-section{
+    display: flex;
+    justify-content: space-around;
+}
+.text-signup{
+    margin-top: 180px;
+    margin-left: 350px;
+}
+.signup{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);}
+    .signup-img{
+        padding-top: 100px;
+        margin-right: 430px;
+        padding-bottom: 100px;
+    }
+    /* signup section :end */
+    /* instragram section :start */
+    .mainflower-section{
+        margin: 80px 550px;
+    }
+.flower-sec-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}  
+.flower-images{
+    margin: 15px;
+}
+.img-1{
+    width: 246px;
+    height: 300px;
+}
+/* instragram section :End */
