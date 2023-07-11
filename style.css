@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{  margin: 0px;
     padding: 0px;
     font-family: 'Lato', sans-serif;
@@ -45,3 +46,9 @@
         margin-right: 240px;
     }
     /* header section :end */
+=======
+*{  margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+    max-width: 1920px;}
+>>>>>>> 5cff56292c3612247a4c62e080f3de3b35fad92d
