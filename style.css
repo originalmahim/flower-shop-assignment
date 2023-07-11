@@ -122,10 +122,29 @@
       text-decoration-line: underline;
      }
     /* Our Featured Flowers :end */
-=======
-*{  margin: 0px;
-    padding: 0px;
-    font-family: 'Lato', sans-serif;
-    max-width: 1920px;}
-
->>>>>>> fa833ff7d6760bc38f7b5faa31608d4444bc2c22
+/* support section :start */
+.support-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 140px 410px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 80px 125px;
+}
+.support-types{
+    margin: 0px 0px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.logos{
+    width: 60px;
+    height: 60px;
+}
+.support-tags{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 20px;
+    font-weight: 600;
+}
+/* support section :end */
