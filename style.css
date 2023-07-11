@@ -121,6 +121,35 @@
       text-decoration-line: underline;
      }
     /* Our Featured Flowers :end */
+    .tips-list{
+    margin: 140px 410px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 80px 125px;
+    }
+    .hh{
+        margin: 10px;
+    }
+    .tips-1{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 20px;  
+    }
+    .nazela{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 20px;  
+    }
+    .tips-img{
+        width: 60px;
+    height: 60px;
+    }
+    .tips{
+        text-align: center;
+        margin: 10px;
+    }
 /* support section :start */
 .support-section{
     display: flex;
