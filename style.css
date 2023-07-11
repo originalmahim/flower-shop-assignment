@@ -4,6 +4,33 @@
     font-family: 'Lato', sans-serif;
     max-width: 1920px;}
     /* header-section :start */
+    /* navigation section start */
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+    .nav-title{
+        color: #E55473;
+        font-size: 45px;
+        font-weight: 800;
+        margin-left: 230px;
+    }
+    .fl-logo{
+        color: #000000;
+      }
+    ul{
+        display: flex;
+        list-style: none;
+        align-items: center;
+        cursor: pointer;
+    }
+    li{
+        margin-right: 100px;
+        
+    }
+    
 .header{
     background-color: rgba(229, 84, 115, 0.10);
 }
