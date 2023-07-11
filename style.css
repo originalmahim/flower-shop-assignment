@@ -46,6 +46,7 @@
         margin-right: 240px;
     }
     /* header section :end */
+<<<<<<< HEAD
     main{
         background-color: #FFF;
     }
@@ -121,3 +122,10 @@
       text-decoration-line: underline;
      }
     /* Our Featured Flowers :end */
+=======
+*{  margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+    max-width: 1920px;}
+
+>>>>>>> fa833ff7d6760bc38f7b5faa31608d4444bc2c22
