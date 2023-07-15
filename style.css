@@ -1,342 +1,634 @@
 
-*{  margin: 0px;
-    padding: 0px;
+* {
+    margin: 0;
+    padding: 0;
     font-family: 'Lato', sans-serif;
-    max-width: 1920px;}
-    /* header-section :start */
-    /* navigation section start */
-    nav{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 20px;
-    }
-    .nav-title{
-        color: #E55473;
-        font-size: 45px;
-        font-weight: 800;
-        margin-left: 230px;
-    }
-    .fl-logo{
-        color: #000000;
-      }
-    ul{
-        display: flex;
-        list-style: none;
-        align-items: center;
-        cursor: pointer;
-    }
-    li{
-        margin-right: 100px;
-        
-    }
-    
-.header{
-    background-color: rgba(229, 84, 115, 0.10);
-}
-.header-section{
+    max-width: 1920px;
+  }
+  
+  /* header-section :start */
+  /* navigation section start */
+  nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 230px;
-}
-.header-title{
+    padding: 1.042em;
+  }
+  
+  .nav-title {
+    color: #E55473;
+    font-size: 2.5em;
+    font-weight: 800;
+    margin-left: 11.979%;
+  }
+  
+  .fl-logo {
+    color: #000000;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  li {
+    margin-right: 6.25em;
+  }
+  
+  .dropdown {
+    display: none;
+  }
+  
+  .dropdown:hover {
+    display: block;
+  }
+  
+  .header {
+    background-color: rgba(229, 84, 115, 0.10);
+  }
+  
+  .header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 11.979%;
+  }
+  
+  .header-title {
     color: #272727;
-    font-size: 80px;
+    font-size: 5em;
     font-weight: 900;
-}
-.hp{
-    margin: 25px 0px;
-}
-.header-paragraph{
+  }
+  
+  .hp {
+    margin: 1.563em 0;
+  }
+  
+  .header-paragraph {
     color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
+    font-size: 1.125em;
     font-weight: 400;
-    line-height: 30px;}
-    
-.header-btn{
-    padding: 20px;
-    border-radius: 8px;
+    line-height: 1.667em;
+  }
+  
+  .header-btn {
+    padding: 1.042em;
+    border-radius: 0.5em;
     background-color: #E55473;
     color: #FFF;
-    font-size: 20px;
+    font-size: 1.25em;
     font-weight: 700;
     border: none;
     cursor: pointer;
-    }
-    .header-btn:hover{
-        background-color: #ffffff;
-        color: #E55473;
-        }
-    .header-img{
-        padding-top: 60px;
-        margin-right: 240px;
-    }
-    /* header section :end */
-    main{
-        background-color: #FFF;
-    }
+  }
+  
+  .header-btn:hover {
+    background-color: #ffffff;
+    color: #E55473;
+  }
+  
+  .header-img {
+    padding-top: 3.125em;
+    margin-right: 12.5%;
+  }
+  
+  /* header section :end */
+  main {
+    background-color: #FFF;
+  }
+  
+  /* Our Featured Flowers :start */
 
-    /* Our Featured Flowers :start */
-    .ft{
-        margin-top: 170px;
-        margin-bottom: 40px;
+  .ft {
+    margin-top: 4.1667%;
+    margin-bottom: 0.8688%;
+  }
+  
+  .Featured-title {
+    text-align: center;
+    color: #272727;
+    font-size: 2.5em;
+    font-weight: 800;
+  }
+  
+  .Feature-title {
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 1.125em;
+    font-weight: 400;
+    line-height: 1.667em;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flower-images-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px 400px;
+}
+.fimages-1{
+  width: 240px;
+  height: 320px;
+  padding: 80px 30px 0px 20px;
+     }
+ .fimages-2{
+  width: 260px;
+  height: 320px;
+  padding: 60px 30px 0px 60px;}
+ .fimages-3{
+  width: 260px;
+  height: 345px;
+  padding: 55px 15px 0px 40px;
+   }
+  .items-1{
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(167, 33, 98, 0.15);
+    width: 340px;
+    height: 400px;
+    }   
+.items-2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 360px;
+    height: 400px;
+}
+.items-3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 340px;
+    height: 400px;
+}
+  
+  .flower-p {
+    color: #272727;
+    text-align: center;
+    font-size: 1.125em;
+    font-weight: 700;
+    line-height: 2.0833em;
+    text-decoration-line: underline;
+  }
+  
+  @media screen (min-width: 577px) and (max-width: 768px) {
+    .ft {
+      margin-top: 6.25%;
+      margin-bottom: 3.125%;
     }
-    .Featured-title{
-        text-align: center;
-        color: #272727;
-        font-size: 40px;
-        font-weight: 800;
+  
+    .Featured-title {
+      font-size: 1.875em;
     }
-    .Feature-title{
-        text-align: center;
-        color: rgba(39, 39, 39, 0.60);
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 30px;
-        display: flex;
-        flex-direction: column;
+  
+    .Feature-title {
+      font-size: 1em;
+      line-height: 1.5em;
+    }
+  
+    .flower-images-1 {
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 6.25% 6.25%;
+    }
+  
+    .fimages-1,
+    .fimages-2,
+    .fimages-3,
+    .items-1,
+    .items-2,
+    .items-3 {
+      width: 45%;
+      height: auto;
+      padding: 4.1667% 1.0417% 0 1.0417%;
+      margin: 2.6042%;}
     }
     
-    .flower-images-1{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin: 60px 400px;
+  
+  
+  @media (max-width: 576px) {
+    .ft {
+      margin-top: 9.375%;
+      margin-bottom: 4.6875%;
     }
-    .flower-item{
-     margin: 10px;
-     }
-    .fimages-1{
-     width: 240px;
-     height: 320px;
-     padding: 80px 30px 0px 20px;
-        }
-    .fimages-2{
-     width: 260px;
-     height: 320px;
-     padding: 60px 30px 0px 60px;}
-    .fimages-3{
-     width: 260px;
-     height: 345px;
-     padding: 55px 15px 0px 40px;
-      }
-    .items-1{
-        border-radius: 300px 300px 0px 0px;
-        background-color: rgba(167, 33, 98, 0.15);
-        width: 340px;
-        height: 400px;
-        }   
-    .items-2{
-        border-radius: 300px 300px 0px 0px;
-        background: rgba(5, 151, 160, 0.15);
-        width: 360px;
-        height: 400px;
+  
+    .Featured-title {
+      font-size: 1.5em;
     }
-    .items-3{
-        border-radius: 300px 300px 0px 0px;
-        background: rgba(71, 125, 17, 0.15);
-        width: 340px;
-        height: 400px;
+  
+    .Feature-title {
+      font-size: 0.875em;
+      line-height: 1.375em;
     }
-    .flower-p{
-        color: #272727;
-        text-align: center;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 35px;
-      text-decoration-line: underline;
-     }
-    /* Our Featured Flowers :end */
-    /* General Flower Care section :start */
-    .tips-list{
-    margin: 140px 410px;
-    border-radius: 8px;
+  
+    .flower-images-1 {
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 9.375% 3.125%;
+    }
+  
+    .fimages-1,
+    .fimages-2,
+    .fimages-3,
+    .items-1,
+    .items-2,
+    .items-3 {
+      width: 90%;
+      height: auto;
+      padding: 3.6458% 1.0417% 0 1.0417%;
+      margin: 4.1667% 0.5208%;
+    }
+  }
+  /* Our Featured Flowers :end */
+  
+  
+  /* General Flower Care section :start */
+  .tips-list {
+    margin: 4.292em 20.833%;
+    border-radius: 0.5em;
     background: rgba(39, 39, 39, 0.05);
-    padding: 80px 125px;
-    }
-    .hh{
-        margin: 10px;
-    }
-    .tips-1{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        margin: 20px;  
-    }
-    .nazela{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        margin: 20px;  
-    }
-    .tips-img{
-        width: 60px;
-    height: 60px;
-    }
-    .tips{
-        text-align: center;
-        margin: 10px;
-    }
-    /* General Flower Care section :End */
-/* support section :start */
-.support-section{
+    padding: 4.167em 6.510em;
+  }
+  
+  .hh {
+    margin: 0.521em;
+  }
+  
+  .tips-1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 140px 410px;
-    border-radius: 8px;
+    margin: 1.042em;
+  }
+  
+  .nazela {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1.042em;
+  }
+  
+  .tips-img {
+    width: 3.125em;
+    height: 3.125em;
+  }
+  
+  .tips {
+    text-align: center;
+    margin: 0.521em;
+  }
+  
+  /* General Flower Care section :End */
+  
+  /* support section :start */
+  .support-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4.292em 20.833%;
+    border-radius: 0.5em;
     background: rgba(39, 39, 39, 0.05);
-    padding: 80px 125px;
-}
-.support-types{
-    margin: 0px 0px;
+    padding: 4.167em 6.510em;
+  }
+  
+  .support-types {
+    margin: 0 0;
     align-items: center;
     display: flex;
     flex-direction: column;
-}
-.logos{
-    width: 60px;
-    height: 60px;
-}
-.support-tags{
+  }
+  
+  .logos {
+    width: 3.125em;
+    height: 3.125em;
+  }
+  
+  .support-tags {
     color: rgba(39, 39, 39, 0.80);
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 600;
-}
-/* support section :end */
-/* signup section :start */
-.Pink{
+  }
+  
+  /* support section :end */
+  
+  /* signup section :start */
+  .Pink {
     color: #E55473;
- }
-.signup-title{
+  }
+  
+  .signup-title {
     color: #272727;
-    font-size: 30px;
+    font-size: 1.875em;
     font-weight: 900;
-}
-.signup-section{
+  }
+  
+  .signup-section {
     display: flex;
     justify-content: space-around;
-}
-.text-signup{
-    margin-top: 180px;
-    margin-left: 350px;
-}
-.signup{
-    border-radius: 8px;
-    background: rgba(229, 84, 115, 0.05);}
-    .signup-img{
-        padding-top: 100px;
-        margin-right: 430px;
-        padding-bottom: 100px;
-    }
-    /* signup section :end */
-    /* instragram section :start */
-    .mainflower-section{
-        margin: 80px 550px;
-    }
-.flower-sec-2{
+  }
+  
+  .text-signup {
+    margin-top: 11.25em;
+    margin-left: 5.208%;
+  }
+  
+  .signup {
+    border-radius: 0.5em;
+    background: rgba(229, 84, 115, 0.05);
+  }
+  
+  .signup-img {
+    padding-top: 6.25em;
+    margin-right: 28.125%;
+    padding-bottom: 6.25em;
+  }
+  
+  /* signup section :end */
+  
+  /* instragram section :start */
+  .mainflower-section {
+    margin: 5.208em 35.9375%;
+  }
+  
+  .flower-sec-2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px;
-}  
-.flower-images{
-    margin: 15px;
-}
-.img-1{
+    padding: 0.208em;
+  }
+  
+  .flower-images {
+    margin: 0.781em;
+  }
+  
+  .img-1 {
     width: 246px;
     height: 300px;
-}
-/* instragram section :End */
-/* subscribe section :start */
-.subscribe-section{
+  }
+  
+  /* instragram section :End */
+  
+  /* subscribe section :start */
+  .subscribe-section {
     background-image: url('Flower Asset/Rectangle 9.png');
-    margin: 120px 410px;
-    border-radius: 8px;
-    padding: 70px 135px;
+    margin: 9.375em 20.833%;
+    border-radius: 0.5em;
+    padding: 4.167em 6.510em;
     background-size: cover;
-}
-.form,
-input[type=email] {
-/* display: block; */
-background-color: #ffffff;
-border: none;
-width: 600px;
-height: 34px;
-border-radius: 8px;
-}
-.email-placeholder{
-color: rgba(39, 39, 39, 0.60);
-text-align: left;
-font-size: 16px;
-font-weight: 400;
-padding: 15px;
-margin: 10px;
-}
-.subscribe-title{
-color: #272727;
-text-align: center;
-font-size: 30px;
-font-weight: 900;
-}
-.form-container{
-display: flex;
-justify-content: space-around;
-align-items: center;
-padding: 5px;
-}
-.email-btn{
-padding: 18px 31px;
-background-color: #E55473;
-color: #FFF;
-font-size: 20px;
-font-weight: 700;
-border: none;
-border-radius: 8px;
-cursor: pointer;
-/* margin: 44px; */
-}
-.email-btn:hover{
-background-color: #ffffff;
-color: #E55473;
-}
-.pdiv{
-margin: 20px 0px;
-}
-/* subscribe section :End */
-/* footer section :start */
-footer{
-    height: 500px;
+  }
+  
+  .form,
+  input[type=email] {
+    background-color: #ffffff;
+    border: none;
+    width: 600px;
+    height: 34px;
+    border-radius: 0.5em;
+  }
+  
+  .email-placeholder {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: left;
+    font-size: 1em;
+    font-weight: 400;
+    padding: 0.781em;
+    margin: 0.521em;
+  }
+  
+  .subscribe-title {
+    color: #272727;
+    text-align: center;
+    font-size: 1.875em;
+    font-weight: 900;
+  }
+  
+  .form-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.208em;
+  }
+  
+  .email-btn {
+    padding: 18px 31px;
+    background-color: #E55473;
+    color: #FFF;
+    font-size: 1.25em;
+    font-weight: 700;
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+  }
+  
+  .email-btn:hover {
+    background-color: #ffffff;
+    color: #E55473;
+  }
+  
+  .pdiv {
+    margin: 1.042em 0;
+  }
+  
+  /* subscribe section :End */
+  
+  /* footer section :start */
+  footer {
+    height: 31.25%;
     text-align: center;
     background: #000000;
     color: #FFF;
-}
-.footer{
-    height: 260px;
-    padding-top: 130px;
-}
-.peragraph{
-    margin: 10px;
+    padding-top: 8.333%;
+    padding-bottom: 8.333%;
+    
   }
-  .footer-peragraph{
+  
+  /* .footer {
+    height: 26.667%;
+    padding-top: 8.333%;
+  } */
+  
+  .peragraph {
+    margin: 0.521em;
+  }
+  
+  .footer-peragraph {
     color: rgba(255, 255, 255, 0.90);
-    font-size: 18px;
+    font-size: 1em;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 1.667em;
   }
-  .footer-logo{
+  
+  .footer-logo {
     color: #E55473;
-     font-size: 48px;
-     font-weight: 700;
+    font-size: 3.125em;
+    font-weight: 700;
   }
-  .f-logo{
+  
+  .f-logo {
     color: #FFF;
   }
-  .copyright{
+  
+  .copy {
     color: rgba(255, 255, 255, 0.40);
     text-align: center;
-    font-size: 16px;
+    font-size: 0.833em;
     font-weight: 400;
   }
-/* footer section :End */
+  /* footer section :End */
+  @media screen and (max-width:576px){
+    .header-section {
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      margin-left: 0%;
+      padding-bottom: 40px;
+    }
+    .hp {
+      margin: 2px 0;
+    }
+    .header-paragraph {
+      color: rgba(39, 39, 39, 0.60);
+      font-size: 5px;
+      font-weight: 400;
+      line-height: 0em;
+      padding: 35px;
+    }
+    nav {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 1.042em;
+    }
+    
+    .nav-title {
+      color: #E55473;
+      font-size: 2.5em;
+      font-weight: 800;
+      margin-left: 0%;
+    }
+    
+    .fl-logo {
+      color: #000000;
+    }
+    
+    ul {
+      display: flex;
+      list-style: none;
+      align-items: center;
+      cursor: pointer;
+    }
+    
+    li {
+      margin: 15px;
+      margin-right: 0em;
+    }
+    .header-title {
+      color: #272727;
+      font-size: 2.5em;
+      font-weight: 900;
+      text-align: center;
+    }
+    .signup-title {
+      color: #272727;
+      font-size: 1.5em;
+      font-weight: 900;
+      text-align: center;
+    }
+    .header-paragraph,.Feature-title{
+      color: rgba(39, 39, 39, 0.60);
+      font-size: 1em;
+      font-weight: 400;
+      line-height: 1em;
+      text-align: center;
+    }
+    .header-img {
+      height: 420px;
+      margin-right: 0%;
+    }
+    .tips-list {
+      margin: 2.292em 0.833%;
+      border-radius: 0.5em;
+      background: rgba(39, 39, 39, 0.05);
+      padding: 1.167em 0.510em;
+    }
+    .tips-1 {
+      gap: 15px;
+      flex-direction: column;
+      /* justify-content: space-around; */
+      align-items: center;
+      margin: 1.042em;
+    }
+    
+    .nazela {
+      gap: 15px;
+      flex-direction: column;
+      /* align-items: center; */
+      margin: 0.042em;
+    }
+    
+    .tips-img {
+      width: 3.125em;
+      height: 3.125em;
+    }
+    .support-section {
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      margin: 1.292em 0.833%;
+      border-radius: 0.5em;
+      background: rgba(39, 39, 39, 0.05);
+      padding: 2.167em 2.510em;
+      gap: 15px;
+    }
+    .mainflower-section {
+      margin: 2.208em 0.9375%;
+    }
+    
+    .flower-sec-2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      padding: 0.208em;
+    }
+    .subscribe-section{
+      display: none;
+    }
+    .bam{
+      text-align: center;
+    }
+
+    .signup-section{
+      flex-direction: column;
+      text-align: center;
+      padding-bottom: 60px;
+    }
+    .images{
+      display: none;
+    }
+    .text-signup {
+      margin-top: 6.25em;
+      margin-left: 0%;
+    }
+    .footer-logo {
+      color: #E55473;
+      font-size: 2em;
+      font-weight: 700;
+    }
+    .footer-peragraph {
+      color: rgba(255, 255, 255, 0.90);
+      font-size: 10px;
+      font-weight: 400;
+    }
+    .copy {
+      color: rgba(255, 255, 255, 0.40);
+      text-align: center;
+      font-size: 1px;
+      font-weight: 0;
+    }
+    .img-1 {
+      width: 356px;
+      height: 400px;
+    }
+  }
